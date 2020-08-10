@@ -3,7 +3,7 @@
 import subprocess
 import time
 
-subprocess.run("ls >> listshow.txt", shell = True)
+subprocess.run("ls >> listshow.txt", shell = True)              # create a list of all the directories
 
 lst = []
 with open('listshow.txt', "r+") as file:
